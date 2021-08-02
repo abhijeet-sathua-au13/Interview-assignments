@@ -1,0 +1,14 @@
+.tag_style{
+    display: inline;
+    background-color: #E1EDF5;
+    border: 1px solid #E1EDF5;
+    padding: 0.5em;
+    color: #627a8a;
+    margin-right: 0.8rem;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-bottom: 1em;
+}
+.tag_style:hover{
+    color: #435561;
+}

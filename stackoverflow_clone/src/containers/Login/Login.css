@@ -1,0 +1,46 @@
+.form_container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 90vh;
+    justify-content: center;
+    align-items: center;
+}
+.formContainer {
+    border: 1px solid #ccc;
+    width: 35%;
+    min-width: 300px;
+    padding: 1rem;
+}
+.loginButton{
+    display: block;
+    margin-top: 0.8em;
+    margin-left: 0.6em;
+    font-size: 1em;
+    cursor: pointer;
+    width: 6rem;
+    padding: 0.6em;
+    border-radius: 0.25rem;
+    border: none;
+    color: #fefefe;
+    background-color: #F28133;
+    border: 2px solid #F28133;
+    font-weight: 400;
+}
+.loginButton:focus{
+    border: 2px solid #e4bda1;
+}
+.register_action_container{
+    text-align: center;
+    border: 1px solid #ccc;
+    width: 35%;
+    min-width: 300px;
+    padding: 1rem;
+}
+.register_action>a{
+    text-decoration: none;
+    color: #0377CC;
+}
+.register_action>a:hover{
+    text-decoration: underline;
+}

@@ -1,0 +1,55 @@
+.ques_sec_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 2rem 2rem;
+}
+.action_button_container{
+    height: 6rem;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.ask_question_btn{
+    padding: 0.6em;
+    color: #fefefe;
+    max-width: 200px;
+    background-color: #0276cc;
+    border: 2px solid #0276cc;
+    font-size: 0.9em;
+    border-radius: 3px;
+    box-shadow: none;
+    cursor: pointer;
+}
+.ask_question_btn:focus{
+    border: 2px solid #7ca4c2;
+}
+.tab_buttons{
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 0.8em;
+    color: rgb(99, 99, 99);
+}
+.tab{
+    border-right: 1px solid #ccc;
+    padding: 0.5rem 0.6rem;
+    cursor: pointer;
+}
+.tabb{
+    padding: 0.4rem;
+    cursor: pointer;
+}
+.is-tab-selected{
+    background-color: rgb(219, 219, 219);
+}
+.question_items{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+    margin-bottom: 1rem;
+}

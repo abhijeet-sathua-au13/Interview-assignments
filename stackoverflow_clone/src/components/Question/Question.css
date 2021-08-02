@@ -1,0 +1,68 @@
+
+.quest_container{
+    box-sizing: border-box;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 1rem;
+    border: 1px solid rgb(184, 184, 184);
+}
+.related_info{
+    display: flex;
+    flex-direction: row;
+    margin-right: 1em;
+}
+.related_info span{
+    display: block;
+}
+.info{
+    padding: 0.8rem;
+    text-align: center;
+    font-size: 0.9em;
+    color: rgb(138, 138, 138);
+}
+.valid-answer{
+    border: 1px solid green;
+    color: green;
+    border-radius: 3px;
+}
+.question_sec{
+    display: flex;
+    flex-direction: column;
+    color: #0276cc;
+    cursor: pointer;
+    justify-content: flex-start;
+}
+.bounty_num{
+    background-color: #0276cc;
+    color: #fefefe;
+    font-size: 0.7em;
+    padding: 0.2em;
+    font-weight: 400;
+    border-radius: 3px;
+}
+.tag_list{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.additional_info{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+.modified_date{
+    margin-left: 18rem;
+    font-size: 0.9rem;
+    right: 0px;
+    color: rgb(138, 138, 138);
+    width: 80%;
+
+}
+.modified_date Link {
+    text-decoration: none;
+}

@@ -1,0 +1,14 @@
+.navbar_container{
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 0.6rem 1rem;
+    width: 100%;
+    background-color: #FBFAFA;
+    box-shadow: 2px 2px 3px #ccc;
+    border-top: 3px solid #F28133;
+}
+.navbar_container img{
+    height: 1.8rem;
+    width: 10rem;
+}

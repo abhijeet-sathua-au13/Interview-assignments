@@ -1,0 +1,21 @@
+
+.tag_card{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #FAFAFB;
+    padding: 1rem;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.tag_achieved{
+    padding: 0.4em;
+    border-radius: 5px;
+    background-color: #E0EDF4;
+}
+.tag_data{
+    margin-right: 1rem;
+    font-size: 1em;
+}
