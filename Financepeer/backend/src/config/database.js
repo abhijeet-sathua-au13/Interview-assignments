@@ -1,6 +1,9 @@
 import mongoose from 'mongoose';
+import dotenv from 'dotenv';
 
-const mongoURI = 'mongodb+srv://Abhijeet-Sathua:8797218788Aa@cluster0.ka2fe.mongodb.net/userFiles?retryWrites=true&w=majority';
+dotenv.config();
+
+const mongoURI = process.env.mongoURI;
 
 const mongoInit = async() => {
     try{
